@@ -1,5 +1,5 @@
 {
-    "name": "demo/simple2",
+    "name": "demo/simple3",
     "description": "N/A",
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0|7.0.2|7.0.4|~7.4.28",
