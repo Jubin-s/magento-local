@@ -1,0 +1,15 @@
+{
+    "luma_customer_login": {
+        "column": {
+            "id": true,
+            "email": true,
+            "created_at": true,
+            "updated_at": true,
+            "count": true,
+            "status": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
