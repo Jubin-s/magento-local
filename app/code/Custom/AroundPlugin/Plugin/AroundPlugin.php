@@ -61,11 +61,20 @@ class AroundPlugin
              */
 
             $FilteredData = $collection->getFirstItem();
+            $r1=$FilteredData->getEmail();
+            if(!empty($r1) && $r1==$email)
+            {
             $incrementData = $FilteredData->getCount()+1;
+            $FilteredData->setEmail($email);
             $FilteredData->setCount($incrementData);
             $FilteredData->setIsActive("InActive");
              /** @var Post $post */
             $this->post->save($FilteredData);
+            }
+            else
+            {
+                
+            }
         }
         else
         {
