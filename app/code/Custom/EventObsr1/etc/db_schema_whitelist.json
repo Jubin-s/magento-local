@@ -1,0 +1,14 @@
+{
+    "luma_page_details": {
+        "column": {
+            "id": true,
+            "url": true,
+            "created_at": true,
+            "updated_at": true,
+            "count": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
