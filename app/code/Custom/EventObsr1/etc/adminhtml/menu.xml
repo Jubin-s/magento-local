@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Custom_EventObsr1::eventobsr1" title="Grid Demo" module="Custom_EventObsr1" sortOrder="51" resource="Custom_EventObsr1::eventobsr1"/>
+        <add id="Custom_EventObsr1::post" title="View Data" module="Custom_EventObsr1" sortOrder="10" action="custom_eventobsr1/post" resource="Custom_EventObsr1::post" parent="Custom_EventObsr1::eventobsr1"/>
+    </menu>
+</config>
